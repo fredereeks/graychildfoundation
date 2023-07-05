@@ -4,7 +4,7 @@ import axios from 'axios'
 import {Carousel} from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 // import {FacebookEmbed, FacebookEmbedProps, InstagramEmbed, InstagramEmbedProps, TwitterEmbed, TwitterEmbedProps} from 'react-social-media-embed'
-import {  peace_map, gallery_WA0038, gallery_WA0040, gallery_WA0042, gallery_WA0051, gallery_WA0043, gallery_WA0041, gallery_WA0039, gallery_WA0045, gallery_WA0044, gallery_WA0049 } from '../assets/images'
+import {  peace_map, gallery_WA0038, gallery_WA0040, gallery_WA0042, gallery_WA0051, gallery_WA0043, gallery_WA0041, gallery_WA0039, gallery_WA0045, gallery_WA0044, gallery_WA0049, gray_child_project } from '../assets/images'
 import { FaArrowRight, FaCaretRight, FaLongArrowAltRight, } from 'react-icons/fa'
 import { thematics } from '../data'
 import { Sponsors } from '../components'
@@ -49,7 +49,7 @@ function Home(){
     return (
         <main className="relative">
             <section className="hero py-20 px-4 flex flex-col justify-center md:px-10 relative after:left-0 after:top-0 after:absolute after:z-5 after:bg-[#0008] after:w-full after:h-full min-h-[80vh]">
-                <img src={gallery_WA0051} alt="Gray Child Hero" className="absolute z-2 w-full h-full left-0 top-0 object-cover" />
+                <img src={gray_child_project} alt="Gray Child Hero" className="absolute z-2 w-full h-full left-0 top-0 object-cover" />
                 <div className="container relative z-10 mx-auto py-10 px-4 flex flex-col gap-3">
                     <p className="text-sm md:text-lg lg:text-xl text-white leading-[1px]">Together, let's build a nation where</p>
                     <h2 className="text-white text-4xl md:text-5xl lg:text-6xl uppercase font-bold max-w-[90%] md:max-w-[35rem] lg:max-w-[45rem] leading-tight">Peace and Justice</h2>

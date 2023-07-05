@@ -45,6 +45,7 @@ import gallery_WA0055 from "./IMG-20230406-WA0055.jpg";
 import gallery_WA0056 from "./IMG-20230406-WA0056.jpg";
 import gallery_WA0057 from "./IMG-20230406-WA0057.jpg";
 import gallery_WA0058 from "./IMG-20230406-WA0058.jpg";
+import gray_child_project from "./gray_child_project"
 import volunteer from "./gray_child_foundation_volunteer.jpg";
 
 export {
@@ -95,5 +96,6 @@ export {
   gallery_WA0056,
   gallery_WA0057,
   gallery_WA0058,
+  gray_child_project,
   volunteer
 };
