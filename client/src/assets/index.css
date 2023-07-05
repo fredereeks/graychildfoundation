@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  outline: 0;
+  
+}
+
+
+@layer base{
+  .phoneInputCountryIcon{
+    display: none !important;
+    position: relative;
+  }
+  .gallery__wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 150px;
+  }
+  .gallery__wrap--sm{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+  }
+  .gallery__wrap--md{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+  }
+  .post__paragraph * {
+    line-height: 2;
+  }
+}
+
+@layer components {
+    .site-body {
+      /* @apply relative bg-[#f0f2f5] min-h-screen w-full transition-all duration-500; */
+      @apply relative bg-[#f9fbfd] min-h-screen w-full transition-all duration-500;
+    }
+}

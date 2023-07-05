@@ -1,0 +1,1 @@
+export const currencyConverter = (amount) =>  amount.toLocaleString().toFixed(2);
