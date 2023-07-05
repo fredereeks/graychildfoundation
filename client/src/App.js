@@ -156,7 +156,9 @@ function App() {
       element: <Suspense callback={<h2>Loading...</h2>}><Splash /></Suspense>,
       errorElement: <Error />
     }
-  ])
+  ], {basename: '/', future: {
+    v7_normalizeFormMethod: true,
+  }, window})
   
   return (
     <RouterProvider router={router}></RouterProvider>

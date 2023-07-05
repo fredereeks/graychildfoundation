@@ -52,8 +52,8 @@ function Home(){
                 <img src={gallery_WA0051} alt="Gray Child Hero" className="absolute z-2 w-full h-full left-0 top-0 object-cover" />
                 <div className="container relative z-10 mx-auto py-10 px-4 flex flex-col gap-3">
                     <p className="text-sm md:text-lg lg:text-xl text-white leading-[1px]">Together, let's build a nation where</p>
-                    <h2 className="text-white text-4xl md:text-5xl lg:text-6xl uppercase font-bold max-w-[90%] md:max-w-[35rem] lg:max-w-[45rem] leading-[1px]">Peace and Justice</h2>
-                    <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold max-w-[90%] md:max-w-[35rem] lg:max-w-[45rem] leading-[1px] uppercase">Shall Reign</h2>
+                    <h2 className="text-white text-4xl md:text-5xl lg:text-6xl uppercase font-bold max-w-[90%] md:max-w-[35rem] lg:max-w-[45rem] leading-tight">Peace and Justice</h2>
+                    <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold max-w-[90%] md:max-w-[35rem] lg:max-w-[45rem] leading-tight uppercase">Shall Reign</h2>
                     <Link to="/about" className='py-2 w-max px-6 rounded-[2rem] my-2 bg-sec text-sm md:text-md text-white'>Learn More</Link>
                 </div>
             </section>

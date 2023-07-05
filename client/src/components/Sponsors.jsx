@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Sponsors() {
     // const { scrollRef } = useSnapCarousel();
+    // https://youtu.be/o0DeGIKMh5k path to main video
     const scrollRef = React.useRef();
   return (
     <section className="sponsor py-10 px-5 bg-pri">
@@ -17,7 +18,7 @@ function Sponsors() {
                 <Link to="https://web.facebook.com/GCFpositivepeace" className="cursor-pointer text-white flex flex-col items-center justify-center text-sm md:text-md">
                     <FaFacebook className='text-white text-lg md:text-2xl' /> Facebook
                 </Link>
-                <Link to="https://youtu.be/o0DeGIKMh5k" className="cursor-pointer text-white flex flex-col items-center justify-center text-sm md:text-md">
+                <Link to="https://m.youtube.com/@graychildfoundation4128" className="cursor-pointer text-white flex flex-col items-center justify-center text-sm md:text-md">
                     <FaYoutube className='text-white text-lg md:text-2xl' /> Youtube
                 </Link>
                 <Link to="mailto:graychildfoundation@gmail.com" className="cursor-pointer text-white flex flex-col items-center justify-center text-sm md:text-md">
